@@ -13,7 +13,7 @@ TURN is a deep learning model for removing **multiplicative Gamma speckle noise*
 Two separate models are trained:
 - **L = 1** — Heavy / SAR-like speckle noise
 - **L = 10** — Moderate speckle noise
-📄 **[Read the full IEEE paper (PDF)](IEEE_Conference_MMIP_project.pdf)**
+📄 **[Read the full IEEE paper (PDF)](turn_speckle_denoising_IEEE_conference.pdf)**
 
 ---
 

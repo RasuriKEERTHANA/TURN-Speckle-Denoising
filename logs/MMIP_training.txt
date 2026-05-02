@@ -1,0 +1,50 @@
+
+ results : (train)
+L=1  → PSNR: 12.89 dB  | SSIM: 0.4188
+L=10 → PSNR: 19.62 dB | SSIM: 0.8033
+
+results : (test data)
+
+===== BSD68 TEST RESULTS =====
+L=1 | PSNR: 12.52 dB | SSIM: 0.4264
+L=10 | PSNR: 19.11 dB | SSIM: 0.8112
+
+Training L_10 
+Epoch 0/80 | Loss: 0.1010
+Epoch 5/80 | Loss: 0.0960
+Epoch 10/80 | Loss: 0.0900
+Epoch 15/80 | Loss: 0.0860
+Epoch 20/80 | Loss: 0.0849
+Epoch 25/80 | Loss: 0.0845
+Epoch 30/80 | Loss: 0.0841
+Epoch 35/80 | Loss: 0.0835
+Epoch 40/80 | Loss: 0.0830
+Epoch 45/80 | Loss: 0.0824
+Epoch 50/80 | Loss: 0.0818
+Epoch 55/80 | Loss: 0.0812
+Epoch 60/80 | Loss: 0.0805
+Epoch 65/80 | Loss: 0.0798
+Epoch 70/80 | Loss: 0.0792
+Epoch 75/80 | Loss: 0.0786
+Training complete for L=10
+
+Training L_1
+Epoch 0/80 | Loss: 0.2569
+Epoch 5/80 | Loss: 0.2414
+Epoch 10/80 | Loss: 0.2225
+Epoch 15/80 | Loss: 0.2082
+Epoch 20/80 | Loss: 0.2031
+Epoch 25/80 | Loss: 0.2016
+Epoch 30/80 | Loss: 0.2005
+Epoch 35/80 | Loss: 0.1995
+Epoch 40/80 | Loss: 0.1983
+Epoch 45/80 | Loss: 0.1970
+Epoch 50/80 | Loss: 0.1954
+Epoch 55/80 | Loss: 0.1932
+Epoch 60/80 | Loss: 0.1912
+Epoch 65/80 | Loss: 0.1887
+Epoch 70/80 | Loss: 0.1857
+Epoch 75/80 | Loss: 0.1834
+
+TRAINING SETTINGS :
+Images: 80 | Epochs: 80 | LR: 1e-4 | Stages: 25
